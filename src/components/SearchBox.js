@@ -1,20 +1,22 @@
 import React from "react";
 import InputGroup from "react-bootstrap/InputGroup";
 import FormControl from "react-bootstrap/FormControl";
-import Row from "react-bootstrap/Row";
-import Col from "react-bootstrap/Col";
+import Button from "react-bootstrap/Button";
+import styles from "../styles/searchbox.css"
 
 const SearchBox = () => (
-    <Row>
-      <Col xs={6} md={4} >
-      <InputGroup size="lg">
-        <InputGroup.Prepend>
-          <InputGroup.Text id="inputGroup-sizing-lg">Search By Recipe or Ingredient</InputGroup.Text>
-        </InputGroup.Prepend>
-        <FormControl aria-label="Large" aria-describedby="inputGroup-sizing-sm" />
-      </InputGroup>
-      </Col>
-    </Row>
+  <div className={styles.SearchBox}>
+    <InputGroup size="lg">
+      <FormControl
+        placeholder="Search By Ingredients or Cuisine"
+        aria-label="Search By Ingredients or Cuisine"
+        aria-describedby="Search By Ingredients or Cuisine"
+      />
+      <InputGroup.Append>
+        <Button variant="outline-secondary">Search</Button>
+      </InputGroup.Append>
+    </InputGroup>
+  </div>
 );
 
 export default SearchBox
