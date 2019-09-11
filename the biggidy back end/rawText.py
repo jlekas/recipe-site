@@ -7,10 +7,9 @@ url2 = "https://www.allrecipes.com/recipe/92462/slow-cooker-texas-pulled-pork/"
 import requests
 import html2text
 
+
 h = html2text.HTML2Text()
 h.ignore_links = True
-
-
 f = requests.get(url2)
 g = h.handle(f.text)
 

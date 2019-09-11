@@ -1,0 +1,10 @@
+function to determine how good a solution is
+
+then a way to rank top 10 recipe results solution goodness 
+
+pick best 3
+
+
+^ make multiple of this function
+
+do some crazy tingaling ding ding
