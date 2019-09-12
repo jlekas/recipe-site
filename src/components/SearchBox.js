@@ -5,7 +5,7 @@ import Button from "react-bootstrap/Button";
 import styles from "../styles/searchbox.css"
 
 const SearchBox = () => (
-  <div className={styles.SearchBox}>
+  <div className={styles.searchBox}>
     <InputGroup size="lg">
       <FormControl
         placeholder="Search By Ingredients or Cuisine"

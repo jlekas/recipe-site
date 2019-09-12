@@ -2,3 +2,14 @@
     background-color: orange;
     color: black;
 }
+
+.searchBox {
+    padding: 10px;
+}
+
+.centered {
+    height: 100vh; /* Magic here */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

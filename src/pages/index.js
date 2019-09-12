@@ -7,7 +7,7 @@ import Col from "react-bootstrap/Col";
 
 
 const IndexPage = () => (
-  <Container>
+  <Container className={"active"}>
     <Row>
       <Col>
         <h1 style={{"font-size": "4em"}}>Boom Recipe</h1>
