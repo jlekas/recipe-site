@@ -1,5 +1,5 @@
 html {
-    background-color: #ffd5d5;
+    background-color: #fff;
     margin-left: auto;
     margin-right: auto;
     text-align: center;
@@ -7,10 +7,13 @@ html {
 }
 
 div {
-    background-color: #ffd5d5;
     margin-left: auto;
     margin-right: auto;
     text-align: center;
+}
+
+.searchbox {
+    background-color: yellow;
 }
 
 .container {
@@ -24,9 +27,9 @@ div {
 }
 
 .button {
-    background-color: black;
+    background-color: orange;
 }
 
 h1 {
-    font-size: 100em;
+    font-size: 4em;
 }

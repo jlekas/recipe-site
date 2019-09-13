@@ -2,10 +2,11 @@ import React from "react";
 import InputGroup from "react-bootstrap/InputGroup";
 import FormControl from "react-bootstrap/FormControl";
 import Button from "react-bootstrap/Button";
-import styles from "../styles/searchbox.css"
+import styles from "../styles/searchbox.module.css"
+console.log("saerch", styles)
 
 const SearchBox = () => (
-  <div className={styles.searchBox}>
+  <div className={styles.searchbox}>
     <InputGroup size="lg">
       <FormControl
         placeholder="Search By Ingredients or Cuisine"
@@ -13,7 +14,8 @@ const SearchBox = () => (
         aria-describedby="Search By Ingredients or Cuisine"
       />
       <InputGroup.Append>
-        <Button variant="outline-secondary">Search</Button>
+        <Button variant="outline-secondary" className={styles.btn}>Search</Button>
+    
       </InputGroup.Append>
     </InputGroup>
   </div>
