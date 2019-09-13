@@ -6,7 +6,7 @@ import styles from "../styles/searchbox.module.css"
 console.log("saerch", styles)
 
 const SearchBox = () => (
-  <div className={styles.searchbox}>
+  <div className={styles.searchBox}>
     <InputGroup size="lg">
       <FormControl
         placeholder="Search By Ingredients or Cuisine"
@@ -15,7 +15,6 @@ const SearchBox = () => (
       />
       <InputGroup.Append>
         <Button variant="outline-secondary" className={styles.btn}>Search</Button>
-    
       </InputGroup.Append>
     </InputGroup>
   </div>

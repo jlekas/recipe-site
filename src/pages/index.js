@@ -8,7 +8,7 @@ import styles from "../styles/global.module.css";
 
 console.log(styles)
 const IndexPage = () => (
-  <Container className={"active"}>
+  <Container className={styles.container}>
     <Row>
       <Col>
         <h1>Boom Recipe</h1>

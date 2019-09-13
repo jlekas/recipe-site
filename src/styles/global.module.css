@@ -3,7 +3,6 @@ html {
     margin-left: auto;
     margin-right: auto;
     text-align: center;
-    padding: 10px;
 }
 
 div {
@@ -12,24 +11,17 @@ div {
     text-align: center;
 }
 
-.searchbox {
-    background-color: yellow;
-}
-
-.container {
-    background-color: #ffd5d5;
-    width: 60%;
-    height: 100%;
-    margin-left: auto;
-    margin-right: auto;
-    text-align: center;
-    padding: 10px;
-}
-
-.button {
-    background-color: orange;
+.container{
+    bottom: 0;
+    height: 400px;
+    margin: auto;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
 }
 
 h1 {
     font-size: 4em;
+    padding: .25em;
 }
