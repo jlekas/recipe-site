@@ -3,6 +3,8 @@ import InputGroup from "react-bootstrap/InputGroup";
 import FormControl from "react-bootstrap/FormControl";
 import Button from "react-bootstrap/Button";
 import styles from "../styles/searchbox.module.css"
+import { Link } from "gatsby"
+
 console.log("saerch", styles)
 
 const SearchBox = () => (
@@ -14,7 +16,9 @@ const SearchBox = () => (
         aria-describedby="Search By Ingredients or Cuisine"
       />
       <InputGroup.Append>
-        <Button variant="outline-secondary" className={styles.btn}>Search</Button>
+        <Link to="/results">
+          <Button variant="outline-secondary" className={styles.btn}>Search</Button>
+        </Link>
       </InputGroup.Append>
     </InputGroup>
   </div>
