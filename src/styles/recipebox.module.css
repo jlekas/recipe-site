@@ -1,0 +1,53 @@
+.recipebox {
+    text-align: center;
+    margin: 35px;
+    border: 20px;
+    height: 25%;
+    padding: 10px;
+    width: 100%;
+    background-color: white;
+    border-color: purple;
+    border-style: solid;
+    opacity: 70%;
+}
+
+.ingredients {
+    text-align: center;
+    border: 5px;
+    width: 80%;
+    background-color: white;
+    border-color: purple;
+    border-style: solid;
+    opacity: 70%;
+}
+
+.instructions {
+    text-align: center;
+    border: 5px;
+    width: 80%;
+    background-color: white;
+    border-color: purple;
+    border-style: solid;
+    opacity: 70%;
+}
+
+.imagebox {
+    text-align: center;
+    border: 5px;
+    height: 40px;
+    width: 80%;
+    background-color: white;
+    border-color: purple;
+    border-style: solid;
+    opacity: 70%;
+}
+
+.citation {
+    text-align: center;
+    border: 5px;
+    width: 80%;
+    background-color: white;
+    border-color: purple;
+    border-style: solid;
+    opacity: 70%;
+}
