@@ -21,7 +21,7 @@ def getHtml(url):
 html3 = "https://www.allrecipes.com/recipe/257938/spicy-thai-basil-chicken-pad-krapow-gai/"
 # print(getText(url))
 # print(getText(url2))
-print(getText(html3))
+# print(getText(html3))
 
 # print(getLines(url))
 # print(getHtml(url))
