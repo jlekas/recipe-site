@@ -4,7 +4,8 @@ import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import styles from "../styles/results.module.css";
 import RecipeBox from "../components/RecipeBox";
-//import { Link } from "gatsby";
+import { Link } from "gatsby";
+import Button from "react-bootstrap/Button";
 
 const ResultsPage = () => (
   <Container className={styles.container}>
@@ -17,6 +18,11 @@ const ResultsPage = () => (
         <RecipeBox></RecipeBox>
         <RecipeBox></RecipeBox>
         <RecipeBox></RecipeBox>
+    </Row>
+    <Row>
+      <Link to="/">
+        <Button variant="outline-secondary" className={styles.btn}>Back to Search</Button>
+      </Link>
     </Row>
     <Row>
     </Row>
