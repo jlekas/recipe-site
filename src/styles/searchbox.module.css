@@ -5,4 +5,10 @@
 
 .searchBox {
     padding: 10px;
+    height: 100%;
+}
+
+.inputgroup {
+    padding: 0.2em;
+    margin: 0 auto;
 }
