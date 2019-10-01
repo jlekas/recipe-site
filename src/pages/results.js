@@ -11,13 +11,19 @@ const ResultsPage = () => (
   <Container className={styles.container}>
     <Row>
       <Col>
-        <h1 style={{"fontSize": "4em"}}>Results Page</h1>
+        <h1>Results Page</h1>
       </Col>
     </Row>
     <Row>
+      <Col size="md-4">
         <RecipeBox></RecipeBox>
+      </Col>
+      <Col size="md-4">
         <RecipeBox></RecipeBox>
+      </Col>
+      <Col size="md-4">
         <RecipeBox></RecipeBox>
+      </Col>
     </Row>
     <Row>
       <Link to="/">

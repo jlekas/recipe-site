@@ -1,14 +1,18 @@
 .recipebox {
     text-align: center;
-    margin: 35px;
-    border: 20px;
-    height: 25%;
-    padding: 10px;
+    border: 2px;
     width: 100%;
     background-color: white;
     border-color: purple;
     border-style: solid;
     opacity: 70%;
+    padding: 5px 5px;
+}
+
+.recipebox ul {
+    text-align: center;
+    padding: 5px;
+    margin: 0 auto;
 }
 
 .ingredients {
